@@ -1,0 +1,11 @@
+//page页面下 
+data: {
+    info:"hellow word",
+    imagSrc:'https://img2.baidu.com/it/u=3250350897,3270282984&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=750',
+    randnum:Math.random() *10,
+    randnum2:Math.random().toFixed(2),
+    conut:0,
+    masg:"这里是搜索框:",
+    type:2,
+    flag:false
+  },

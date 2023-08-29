@@ -1,0 +1,8 @@
+function toLower(str){
+  return str.toLowerCase() //大写转换小写
+
+}
+
+module.exports = {
+  toLower:toLower
+}

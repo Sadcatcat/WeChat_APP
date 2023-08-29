@@ -1,0 +1,6 @@
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#E0FFFF",
+    "navigationBarTitleText": "安心用小程序",
+    "navigationBarTextStyle":"black"
+  },

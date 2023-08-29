@@ -1,0 +1,1 @@
+<view wx:for="{{user_list}}" wx:key="id" class="thiscolor">序列:{{item.id}} 姓名{{item.name}}</view>

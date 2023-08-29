@@ -1,0 +1,4 @@
+设置触底距离，防止一直在请求刷新
+{
+"onReachBottomDistance":150 
+}

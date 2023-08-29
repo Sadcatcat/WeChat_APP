@@ -1,0 +1,7 @@
+input {
+  border:1px solid lightskyblue;/*border在css中是边框的意思,*/
+  margin:5px red; /*“CSS margin指的是外边距*/
+  padding:5px;
+  border-radius: 3px; /*border-radius的意思为“边框圆角;圆角半径*/
+  background-color: lightblue;
+}

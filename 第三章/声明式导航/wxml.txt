@@ -1,0 +1,2 @@
+<navigator url="/pages/people/people" open-type="switchTab">冲冲冲(Tabbar页面)</navigator>
+<navigator url="/pages/list/list" open-type="navigate">非Tapbar页面</navigator>

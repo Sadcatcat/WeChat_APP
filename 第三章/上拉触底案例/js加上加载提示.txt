@@ -1,0 +1,25 @@
+  Getcolors(){
+//使用加载提示
+    wx.showLoading({
+      title: '数据加载中',
+    })
+    this.data.count=0
+    while(this.data.count<3){
+    wx.request({
+      url: 'https://applet-base-api-t.itheima.net/api/color',
+      method:"GET",
+      success:({data:res})=>{
+      console.log(res)
+      this.setData({
+        colorList:[...this.data.colorList,...res.data],
+      })
+      },
+//请求后隐藏提示
+      complete:()=>
+      {
+        wx.hideLoading()
+      }
+    })
+    this.data.count++
+  }
+  },

@@ -1,0 +1,13 @@
+<button>普通按钮</button>
+<button type="primary">主色调按钮</button>
+<button type="warn">警告按钮</button>
+
+<!-- 小尺寸按钮 -->
+<button size="mini">普通按钮</button>
+<button type="primary" size="mini">主色调按钮</button>
+<button type="warn" size="mini">警告按钮</button>
+
+<!-- 镂空效果按钮 -->
+<button size="mini" plain>警告按钮</button>
+<button type="primary" size="mini" plain>主色调按钮</button>
+<button type="warn" size="mini" plain>警告按钮</button>

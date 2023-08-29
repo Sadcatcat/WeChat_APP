@@ -1,0 +1,65 @@
+Page({
+
+  /**
+   * 页面的初始数据
+   */
+  data: {
+    info:"hellow word",
+    imagSrc:'https://img2.baidu.com/it/u=3250350897,3270282984&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=750',
+    randnum:Math.random() *10,
+    randnum2:Math.random().toFixed(2),
+    conut:0,
+    masg:"这里是搜索框:"
+  },
+
+//定义btnTapHander函数
+btnTapHander(e){console.log(e)},
+
+//定义Consoleput函数
+Consoleput(){
+  this.setData({conut:this.data.conut+1})
+},
+
+//定义btnTap2函数
+btnTap2(e){
+  this.setData({conut:this.data.conut + e.target.dataset.info})
+},
+
+//定义的inputHander函数
+inputHander(e)
+{
+  console.log(e.detail.value)
+},
+
+//定义的inputHander2函数
+inputHander2(e)
+{
+ this.setData({masg:e.detail.value})
+},
+  /**
+   * 生命周期函数--监听页面加载
+   */
+  onLoad(options) {
+
+  },
+
+  /**
+   * 生命周期函数--监听页面初次渲染完成
+   */
+  onReady() {
+
+  },
+
+  /**
+   * 生命周期函数--监听页面显示
+   */
+  onShow() {
+
+  },
+
+  /**
+   * 生命周期函数--监听页面隐藏
+   */
+  onHide() {
+
+  },

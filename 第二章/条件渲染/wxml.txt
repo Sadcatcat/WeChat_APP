@@ -1,0 +1,14 @@
+<view wx:if="{{type===1}}">男</view>
+<view wx:elif="{{tyep===2}}">女</view>
+<view wx:else>保密</view>
+
+<!--block标签是包裹性的容器，可以隐藏组件-->
+<block wx:if="{{true}}">
+<view>view1</view>
+<view>view2</view>
+</block>
+
+<!--hidden方式隐藏，适合频繁切换时候使用-->
+<view hidden="{{flag}}">当值为真隐藏，否则显示</view>
+
+<view wx:if="{{flag}}">创建和移除元素方式</view>

@@ -1,0 +1,13 @@
+  //通过编程式导航到页面
+  Touesrpage()
+  {
+    wx.switchTab({
+      url: '/pages/people/people',
+    })
+  },
+  Tolistpage()
+  {
+    wx.navigateTo({
+      url: '/pages/list/list',
+    })
+  },

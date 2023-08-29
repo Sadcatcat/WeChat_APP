@@ -1,0 +1,9 @@
+  "window":{
+    "backgroundTextStyle":"dark", //要么是dark 黑 要么是light白
+    "navigationBarBackgroundColor": "#E0FFFF", //标题背景颜色
+    "navigationBarTitleText": "安心用小程序", //标题：小程序名字
+    "navigationBarTextStyle":"black", //小程序标题要么是黑色，要么是白色
+    "enablePullDownRefresh": true, //开启下拉刷新功能
+    "backgroundColor": "#87CEFA", //导航栏刷新时候的颜色
+    "onReachBottomDistance": 50   //上拉刷新，底部数据不足50像素开始刷新
+  },

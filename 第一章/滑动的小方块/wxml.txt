@@ -1,0 +1,6 @@
+<!-- 三个平行的盒子滑动 -->
+<scroll-view class="contriner1" scroll-y>
+<view>A</view>
+<view>B</view>
+<view>C</view>
+</scroll-view>

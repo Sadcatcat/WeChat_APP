@@ -1,0 +1,6 @@
+<view>
+手机号支持长按选中效果
+<text selectable>15997510781</text>
+</view>
+
+<rich-text nodes="<h1 style='color:red;'>这是标题</h1>"></rich-text>

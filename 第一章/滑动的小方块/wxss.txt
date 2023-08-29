@@ -1,0 +1,24 @@
+/*三个平行的盒子的样式表*/
+.contriner1 view{
+width: 100px;
+height: 100px;
+text-align: center;
+line-height: 100px;
+}
+
+.contriner1 view:nth-child(1){
+background-color: lightgreen;
+}
+
+.contriner1 view:nth-child(2){
+  background-color: lightskyblue;
+}
+  
+.contriner1 view:nth-child(3){
+    background-color: lightpink;
+   }
+.contriner1 {
+ border: 1px solid red;
+ width: 100px;
+ height: 120px;
+}

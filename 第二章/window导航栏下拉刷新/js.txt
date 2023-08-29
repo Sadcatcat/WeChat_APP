@@ -1,0 +1,14 @@
+conutadd(){
+  this.setData({
+    conut:this.data.conut+1
+  })
+},
+
+
+
+下拉刷新侦听  （开发工具中写的有）
+onPullDownRefresh() {
+    console.log('触发了下拉刷新')
+    this.setData({conut:0})
+    wx.stopPullDownRefresh()//调用自动关闭下拉刷新效果 加上这个刷新之后，导航栏会快速回到正常位置
+  },

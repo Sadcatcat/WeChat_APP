@@ -1,0 +1,26 @@
+App({
+/**onLaunch函数全局只会触发一次**/
+  onLaunch() {
+    console.log("页面加载")
+
+  },
+
+   /**
+   * 生命周期函数--监听页面显示
+   */
+  onShow() {
+    console.log("前台运行")
+      },
+    
+      /**
+       * 生命周期函数--监听页面隐藏
+       */
+      onHide() {
+    console.log("后台运行")
+      },
+    
+
+  globalData: {
+    userInfo: null
+  }
+})

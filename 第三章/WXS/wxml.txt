@@ -1,0 +1,10 @@
+<wxs module="m1">
+module.exports.toUpper = function(str){
+  return str.toUpperCase() //小写转换大写
+}
+</wxs>
+
+<view>{{m1.toUpper(username)}}</view>  //大写转换小写
+
+<view>{{m2.toLower(Country)}}</view>
+<wxs src="/utils/tools.wxs" module="m2"></wxs>

@@ -1,0 +1,19 @@
+//可在app.json文件的pages中快速创建页面路径，页面首页但是必须要放在前面
+
+"tabBar": {
+    "list":[
+    {
+      "pagePath":"pages/home/home", //页面的路径
+      "text":"首页", //页面标题
+      "iconPath": "/images/icon/home.png", //未选择页面时候的图标
+      "selectedIconPath": "/images/icon/ac_home.png" //选择页面时候的图标
+    },
+    {
+      "pagePath": "pages/people/people",
+      "text":"我的",
+      "iconPath": "/images/icon/people.png",
+      "selectedIconPath": "/images/icon/ac_people.png"
+    }
+  ]，
+  "selectedColor": "#87CEFA",// 选中的字体改变颜色
+  },

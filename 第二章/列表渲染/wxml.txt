@@ -1,0 +1,6 @@
+<view wx:for="{{list_phone}}">序列:{{index}}  手机:{{item}}</view>
+
+<!--通过wx:for-index起名字-->
+<view wx:for="{{list_phone}}" wx:for-index="idx" wx:for-item="name">序列:{{idx}}  手机:{{name}}</view>
+
+<view wx:for="{{user_list}}" wx:key="id">序列:{{item.id}} 姓名{{item.name}}</view>

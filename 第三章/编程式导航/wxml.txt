@@ -1,0 +1,3 @@
+<button bindtap="Touesrpage">跳转到我的页面tabbar页面</button>
+
+<button bindtap="Tolistpage">跳转list页面非tabbar页面</button>

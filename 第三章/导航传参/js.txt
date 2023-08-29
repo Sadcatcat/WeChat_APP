@@ -1,0 +1,15 @@
+导航过去的js文件 
+ onLoad(options) {
+    console.log(options)
+    this.setData({page_result:options})
+  },
+
+
+
+主页的js文件
+  Tolistpage_value()
+  {
+    wx.navigateTo({
+      url: '/pages/list/list?index=1&phone=iphone',
+    })
+  },

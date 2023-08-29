@@ -1,0 +1,4 @@
+<button bindtap="getInfo">发起GET请求</button>
+<button bindtap="PostInfo">发起POST请求</button>
+
+<image class="getimg_css" src="{{getimg}}" mode=""></image>

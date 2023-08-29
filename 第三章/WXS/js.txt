@@ -1,0 +1,6 @@
+  data: {
+  getimg:'',
+  result:[],
+  username:"zs",
+  Country:"CHINA"
+  },

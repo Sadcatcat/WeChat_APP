@@ -1,0 +1,32 @@
+  data: {
+  getimg:''
+  },
+
+  getInfo(){
+    wx.request({
+      url: 'https://api.uomg.com/api/qrcode?url=https://nlc.chinanutri.cn/fq/',
+      method:"GET",
+      responseType:"arraybuffer",
+      success:(res)=>{
+      const base64 = wx.arrayBufferToBase64(res.data);
+      const getimg = 'data:image/jpeg;base64,' + base64;
+      this.setData({getimg:getimg})
+      }
+    })
+      
+},
+  
+
+  PostInfo() { 
+    wx.request({
+      url: 'https://applet-base-api-t.itheima.net/aip/post',
+      method:"POST",
+      data:{
+        name:'zs',
+        age:33
+      },
+      success:(res)=>{
+        console.log(res)
+      }
+    })
+  },

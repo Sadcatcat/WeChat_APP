@@ -1,0 +1,1 @@
+<button bindtap="Tolistpage_value">跳转list页面时候传递参数</button>

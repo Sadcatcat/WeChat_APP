@@ -1,0 +1,3 @@
+在page里定义
+//定义btnTapHander函数
+btnTapHander(e){console.log(e)},

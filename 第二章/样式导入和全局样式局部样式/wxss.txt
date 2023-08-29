@@ -1,0 +1,22 @@
+common.wxss文件下
+.thiscolor {
+  color:lightblue
+}
+
+
+
+其他wxss文件下
+@import "/common/common.wxss";
+
+
+
+app.wxss下
+/* 全局样式 */
+view{
+  color: lightskyblue;
+  margin:10rpx; /*CSS margin指的是外边距*/
+  background-color: lightslategray;
+}
+
+
+范围越小，优先级越高

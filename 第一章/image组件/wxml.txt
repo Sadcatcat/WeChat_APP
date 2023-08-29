@@ -1,0 +1,2 @@
+<image></image>
+<image src="/images/fj.jpg" mode="heightFix"></image>

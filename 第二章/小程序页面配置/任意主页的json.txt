@@ -1,0 +1,12 @@
+{
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#ADD8E6",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "安心用",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark",
+  "backgroundColor": "#ADD8E6"
+}
+
+
+参数方法和操作app.json一样

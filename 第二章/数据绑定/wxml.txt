@@ -1,0 +1,7 @@
+<view>{{info}}</view>
+
+<image src="{{imagSrc}}" mode="widthFix"></image>
+
+<view>{{randnum >=5?'数字大于等于5':'数字小于5'}}</view>
+
+<view>输出100以内的随机数:{{randnum2*100}}</view>
